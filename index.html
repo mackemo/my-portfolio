@@ -8,8 +8,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- style sheet -->
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Mackenzie's Portfolio</title>
@@ -20,113 +20,117 @@
 
     <!-- header -->
     <header class="row">
-        <div class="col-lg-6 text-center">
-            <h1 class="title">Tech <br> Blog</h1>
-        </div>
-        <div class="col-lg-6">
+        <div class="col-md-12">
             <!-- nav links -->
             <nav> 
-                <ul class="nav justify-content-lg-end">
-                    <!-- {{#if loggedIn}} -->
-                    <li><a href="#about">About</a></li> 
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul class="nav justify-content-md-end">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
+    
 
     <!-- about -->
-    <section id="about">
-        <h2 class="topics">Title</h2>
-        <div>
-            <p>Hi! I'm Mackenzie Moore. 
-            <br>
-            <br>I earned my bachelor's degree in Biology with a minor in Chemistry from the University of Tampa. Initially drawn to Orthopedic Medicine, I worked as a medical assistant after graduation but realized it wasn't my true passion.
-            <br>
-            <br>My interest in mathematics and problem-solving led me to coding. I took coding classes independently one summer and thoroughly enjoyed it!
-            <br>
-            <br>Now, I'm embarking on a coding journey with the Vanderbilt bootcamp, and I couldn't be more thrilled! 
-            <br>
-            <br>Below, you'll find my completed projects from the bootcamp, along with my contact information, resume, and Github profile. Enjoy exploring!
-            </p> 
-            <img class="img-mack" src="./assets/images/my pic.jpg" alt="Mackenzie Moore"/>
+    <section class="container col-md-10">
+        <div class="row">
+            <div id="about">
+                <h2 class="name fst-italic">Hello! I'm Mackenzie Moore</h2>
+                <div>
+                    <h4 class="topics">Aspiring Software Developer</h4>
+                    <p id="intro" class="col-md-6">
+                        I am embarking on a coding journey through Vanderbilt University's bootcamp! 
+                        I am dedicated to continuous learning to efficiently code and creating quality user experiences. 
+                    </p> 
+                    <img class="img-mack col-md-6" src="./assets/images/my pic.jpg" alt="Mackenzie Moore"/>
+                </div>
+            </div>
         </div>
     </section> 
 
+    <section class="container col-md-10">
+        <div class="row">
+            <h2 class="topics">Skills</h2>
+            <p>HTML, CSS, JS, MERN</p>
+        </div>
+    </section>
+
 
     <!-- projects -->
-    <section id="my-work">
-        <div>
-            <h2 class="topics">My Work</h2>
-            <div class="work-topics">
-                <div class="work" id="prework">
-                    <a href="https://mackemo.github.io/prework-study-guide/" target="_blank">
-                        <img src="./assets/images/prework.png" alt="Prework Study Guide">
-                        <h4>Prework Study Guide</h4>
-                    </a>
-                </div>
-                <div class="work" id="payroll">
-                    <a href="https://mackemo.github.io/3-payroll-tracker/" target="_blank">
-                        <img src="./assets/images/payroll.png" alt="Payroll Tracker">
-                        <h4>Payroll Tracker</h4>
-                    </a>
-                </div>
-                <div class="work" id="blog">
-                    <a href="https://mackemo.github.io/4-personal-blog/" target="_blank">
-                        <img src="./assets/images/blog.png" alt="Personal Blog">
-                        <h4>Personal Blog</h4>
-                    </a>
-                </div>
-                <div class="work" id="task">
-                    <a href="https://mackemo.github.io/5-task-board/" target="_blank">
-                        <img src="./assets/images/task.png" alt="Task Board">
-                        <h4>Task Board</h4>
-                    </a>
-                </div>
-                <div class="work" id="weather">
-                    <a href="https://mackemo.github.io/6-weather-dashboard/" target="_blank">
-                        <img src="./assets/images/weather.png" alt="Weather Dashboard">
-                        <h4>Weather Dashboard</h4>
-                    </a>
-                </div>
-                <div class="work" id="project">
-                    <a href="https://mackemo.github.io/project-1-charge-car/" target="_blank">
-                        <img src="./assets/images/project1.png" alt="Project 1">
-                        <h4>Project 1</h4>
-                    </a>
-                </div>
-                <div class="work" id="readme">
-                    <a href="https://drive.google.com/file/d/1FEylRp6MDN0mAO5NpnvG0fm5p-2HMln1/view" target="_blank">
-                        <img src="./assets/images/readme.png" alt="Readme Generator">
-                        <h4>Readme Generator</h4>
-                    </a>
-                </div>
-                <div class="work" id="svg">
-                    <a href="https://drive.google.com/file/d/1dL5c2ptSsVas_cwclkuP5_EEBa3kF2lc/view" target="_blank">
-                        <img src="./assets/images/svg.png" alt="SVG Logomaker">
-                        <h4>SVG Logomaker</h4>
-                    </a>
-                </div>
-                <div class="work" id="note">
-                    <a href="https://nine-note-taker.onrender.com" target="_blank">
-                        <img src="./assets/images/note.png" alt="Note Taker">
-                        <h4>Note Taker</h4>
-                    </a>
-                </div>
-                <div class="work" id="emp">
-                    <a href="https://drive.google.com/file/d/1xM-w4MFCEGdOS1mtH_yGVQ5vfOHO2Rl9/view" target="_blank">
-                        <img src="./assets/images/emp.png" alt="Employee Tracker">
-                        <h4>Employee Tracker</h4>
-                    </a>
-                </div>
-                <div class="work" id="ecom">
-                    <a href="https://drive.google.com/file/d/13UVQjVMGu9k3k1hvGJfX8_18R_3cMDSi/view" target="_blank">
-                        <img src="./assets/images/ecom.png" alt="Ecommerce Site">
-                        <h4>Ecommerce Site</h4>
-                    </a>
+    <section id="my-work" class="container col-md-10">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="topics">Projects</h2>
+                <div class="work-topics">
+                    <div class="work" id="prework">
+                        <a href="https://mackemo.github.io/prework-study-guide/" target="_blank">
+                            <img src="./assets/images/prework.png" alt="Prework Study Guide">
+                            <h4>Prework Study Guide</h4>
+                        </a>
+                    </div>
+                    <div class="work" id="payroll">
+                        <a href="https://mackemo.github.io/3-payroll-tracker/" target="_blank">
+                            <img src="./assets/images/payroll.png" alt="Payroll Tracker">
+                            <h4>Payroll Tracker</h4>
+                        </a>
+                    </div>
+                    <div class="work" id="blog">
+                        <a href="https://mackemo.github.io/4-personal-blog/" target="_blank">
+                            <img src="./assets/images/blog.png" alt="Personal Blog">
+                            <h4>Personal Blog</h4>
+                        </a>
+                    </div>
+                    <div class="work" id="task">
+                        <a href="https://mackemo.github.io/5-task-board/" target="_blank">
+                            <img src="./assets/images/task.png" alt="Task Board">
+                            <h4>Task Board</h4>
+                        </a>
+                    </div>
+                    <div class="work" id="weather">
+                        <a href="https://mackemo.github.io/6-weather-dashboard/" target="_blank">
+                            <img src="./assets/images/weather.png" alt="Weather Dashboard">
+                            <h4>Weather Dashboard</h4>
+                        </a>
+                    </div>
+                    <div class="work" id="project">
+                        <a href="https://mackemo.github.io/project-1-charge-car/" target="_blank">
+                            <img src="./assets/images/project1.png" alt="Project 1">
+                            <h4>Project 1</h4>
+                        </a>
+                    </div>
+                    <div class="work" id="readme">
+                        <a href="https://drive.google.com/file/d/1FEylRp6MDN0mAO5NpnvG0fm5p-2HMln1/view" target="_blank">
+                            <img src="./assets/images/readme.png" alt="Readme Generator">
+                            <h4>Readme Generator</h4>
+                        </a>
+                    </div>
+                    <div class="work" id="svg">
+                        <a href="https://drive.google.com/file/d/1dL5c2ptSsVas_cwclkuP5_EEBa3kF2lc/view" target="_blank">
+                            <img src="./assets/images/svg.png" alt="SVG Logomaker">
+                            <h4>SVG Logomaker</h4>
+                        </a>
+                    </div>
+                    <div class="work" id="note">
+                        <a href="https://nine-note-taker.onrender.com" target="_blank">
+                            <img src="./assets/images/note.png" alt="Note Taker">
+                            <h4>Note Taker</h4>
+                        </a>
+                    </div>
+                    <div class="work" id="emp">
+                        <a href="https://drive.google.com/file/d/1xM-w4MFCEGdOS1mtH_yGVQ5vfOHO2Rl9/view" target="_blank">
+                            <img src="./assets/images/emp.png" alt="Employee Tracker">
+                            <h4>Employee Tracker</h4>
+                        </a>
+                    </div>
+                    <div class="work" id="ecom">
+                        <a href="https://drive.google.com/file/d/13UVQjVMGu9k3k1hvGJfX8_18R_3cMDSi/view" target="_blank">
+                            <img src="./assets/images/ecom.png" alt="Ecommerce Site">
+                            <h4>Ecommerce Site</h4>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -134,21 +138,27 @@
 
 
     <!-- contact -->
-    <section id="contact">
-        <div>
-            <h2 class="topics">Contact</h2>
-            <p> Email: mackenzielmoore14@gmail.com
-            <br>Phone number: (314) 625-3333 
-            <br>Address: 4001 S West Shore Blvd, Tampa FL 33611
-            </p>  
+    <section id="contact" class="container col-md-10">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="topics">Contact</h2>
+                <p> Email: mackenzielmoore14@gmail.com
+                <br>Phone number: (314) 625-3333 
+                <br>Address: 4001 S West Shore Blvd, Tampa FL 33611
+                </p>
+            </div>  
         </div>
     </section>
 
 </body>
 
 <!--footer-->
-<footer>
-    <h5>Page created by Mackenzie Moore</h5>
+<footer class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h5>Page created by Mackenzie Moore</h5>
+        </div>
+    </div>
 </footer>
 
 

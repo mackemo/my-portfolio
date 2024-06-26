@@ -1,0 +1,49 @@
+/* font imported from google fonts */
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: white;
+}
+
+:root {
+    --blu:   #b5b5d6;
+}
+
+header {
+    padding: 10px;
+}
+
+section {
+    box-shadow: 0 0 5px 5px rgb(195, 196, 216);
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.topics {
+    font-weight: 200;
+}
+
+/* nav links */
+.nav-link {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px 50px 0 20px;
+}
+
+.nav-link:hover {
+    background-color: var(--blu);
+    color: white;
+}
+
+
+/* about */
+#about {
+    padding: 80px;
+}
+
+.name, .title {
+    font-size: 50px;
+    font-weight: 200;
+    color: black;
+}
+
