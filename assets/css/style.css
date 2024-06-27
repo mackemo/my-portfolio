@@ -1,7 +1,8 @@
 /* font imported from google fonts */
 body {
     font-family: "Roboto Condensed", sans-serif;
-    background-color: var(--whi);
+    background-image: linear-gradient(to right, rgb(236, 233, 233), rgb(236, 233, 233), rgb(236, 233, 233), 
+    white, rgb(236, 233, 233), rgb(236, 233, 233), rgb(236, 233, 233));
 }
 
 :root {
@@ -12,14 +13,17 @@ body {
 
 header {
     padding: 10px;
-    background-color: var(--whi);
+    background-image: linear-gradient(to right, rgb(236, 233, 233), rgb(236, 233, 233), rgb(236, 233, 233), 
+    white, rgb(236, 233, 233), rgb(236, 233, 233), rgb(236, 233, 233));
 }
 
-section {
-    background-color: var(--whi);
-    /* background-color: rgb(240, 137, 100); */
-    /* background-image: linear-gradient(to right, rgb(207, 119, 107) , rgb(228, 168, 77)); */
-}
+.title {
+    display: flex;
+    justify-content: center;
+    color: var(--blu);
+    font-size: 30px;
+}  
+
 
 
 /* nav links */
@@ -39,7 +43,7 @@ section {
 
 /* about */
 #about {
-    padding: 0 0 0 100px;
+    padding: 0 0 0 70px;
 }
 
 .intro {
@@ -53,8 +57,10 @@ section {
 }
 
 .img-mack {
-    width: 50%;
-    height: auto;
+    /* width: 50%;
+    height: auto; */
+    height: 400px;
+    width: auto;
     border-radius: 100%;
     box-shadow: var(--sha);
 }
@@ -158,6 +164,10 @@ footer {
     margin-bottom: 50px;
 }
 
+footer h5 {
+    font-weight: 300;
+}
+
 
 
 /* responsive */
@@ -170,6 +180,11 @@ footer {
 @media screen and (max-width: 1000px) {
     #about {
         padding: 0;
+    }
+
+    .img-mack {
+        height: 300px;
+        width: auto;
     }
 
     .intro {
@@ -210,5 +225,9 @@ footer {
     .work img {
         height: 100px;
         width: 100px;
+    }
+
+    .contact {
+        font-size: 20px;
     }
 }
