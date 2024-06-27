@@ -52,6 +52,20 @@ header {
     box-shadow: 0 0 20px 20px rgb(195, 196, 216);
 }
 
+.icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    margin: 15px 15px;
+}
+
+.icon:hover {
+    opacity: 1.0;
+    box-shadow: 0 0 3px 3px rgb(195, 196, 216);
+}
+
 
 
 /* projects */
@@ -76,7 +90,6 @@ header {
     text-align: center;
     background-color: #434357e5;
     color: white;
-    
 }
 
 .work img {
@@ -95,13 +108,27 @@ header {
 /* responsive */
 @media screen and (max-width: 1500px) {
     .intro {
-        padding: 40px 40px 40px 75px;
+        padding: 40px 40px 40px 0;
     }
 }
 
 @media screen and (max-width: 1000px) {
     #about {
         padding: 0;
+    }
+
+    .intro {
+        padding: 80px 0 50px 20px;
+    }
+
+    .work {
+        height: 200px;
+        width: 200px;
+    }
+
+    .work img {
+        height: 200px;
+        width: 200px;
     }
 }
 
@@ -113,5 +140,20 @@ header {
 
     #about {
         padding: 0;
+    }
+
+    .work {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 40px;
+    }
+
+    .work h5 {
+        font-size: 15px;
+    }
+
+    .work img {
+        height: 100px;
+        width: 100px;
     }
 }
