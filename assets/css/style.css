@@ -74,14 +74,24 @@ section {
 
 
 /* skills */
+#skills {
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
 .skills {
     height: auto;
     width: 100px;
+    opacity: 0.8;
 }
 
 
 
 /* projects */
+#projects {
+    margin-bottom: 300px;
+}
+
 .work-topics {
     display: flex;
     flex-wrap: wrap;
