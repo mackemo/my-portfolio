@@ -1,20 +1,21 @@
 /* font imported from google fonts */
 body {
     font-family: "Roboto Condensed", sans-serif;
-    background-color: rgb(236, 233, 233);
+    background-color: var(--whi);
 }
 
 :root {
-    --blu:   #7777a1e5;
+    --blu: #7777a1e5;
+    --whi: rgb(236, 233, 233)
 }
 
 header {
     padding: 10px;
-    background-color: rgb(236, 233, 233);
+    background-color: var(--whi);
 }
 
 section {
-    background-color: rgb(236, 233, 233);
+    background-color: var(--whi);
     /* background-color: rgb(240, 137, 100); */
     /* background-image: linear-gradient(to right, rgb(207, 119, 107) , rgb(228, 168, 77)); */
 }
@@ -56,7 +57,7 @@ section {
     border-radius: 100%;
     box-shadow: 0 0 20px 20px rgb(195, 196, 216);
 }
-
+/* github, linkedin, resume */
 .icon {
     height: 40px;
     width: 40px;
@@ -124,6 +125,18 @@ section {
 .work:hover {
     opacity: 1.0;
     box-shadow: 0 0 20px 20px rgb(195, 196, 216);
+}
+
+
+
+/* contact */
+#contact {
+    margin-bottom: 300px;
+}
+
+.contact {
+    font-size: 30px;
+    text-align: center;
 }
 
 
