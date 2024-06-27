@@ -5,7 +5,7 @@ body {
 }
 
 :root {
-    --blu:   #69698a;
+    --blu:   #7777a1e5;
 }
 
 header {
@@ -13,12 +13,7 @@ header {
     background-color: white;
 }
 
-/* section {
-    box-shadow: 0 0 5px 5px rgb(195, 196, 216);
-    border-radius: 10px;
-    margin: 50px;
-    background-color: white;
-} */
+
 
 /* nav links */
 .nav-link {
@@ -32,6 +27,7 @@ header {
     border-radius: 20%;
     color:white;
 }
+
 
 
 /* about */
@@ -53,6 +49,44 @@ header {
     width: 50%;
     height: auto;
     border-radius: 100%;
+    box-shadow: 0 0 20px 20px rgb(195, 196, 216);
+}
+
+
+
+/* projects */
+.work-topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.work {
+    border: solid var(--blu);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+.work h5 {
+    text-align: center;
+    background-color: #434357e5;
+    color: white;
+    
+}
+
+.work img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover; 
+}
+
+.work:hover {
+    opacity: 1.0;
     box-shadow: 0 0 20px 20px rgb(195, 196, 216);
 }
 
