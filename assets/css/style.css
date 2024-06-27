@@ -153,6 +153,13 @@ section {
 
 
 
+/* footer */
+footer {
+    margin-bottom: 50px;
+}
+
+
+
 /* responsive */
 @media screen and (max-width: 1500px) {
     .intro {
