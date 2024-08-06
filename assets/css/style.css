@@ -110,6 +110,16 @@ header {
     text-decoration: underline;
 }
 
+.main-work {
+    border: solid var(--blu);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    height: 250px;
+    width: 1115px;
+    margin: 20px;
+}
+
 .work {
     border: solid var(--blu);
     background-size: cover;
@@ -120,10 +130,16 @@ header {
     margin: 20px;
 }
 
-.work h5 {
+.main-work h5, .work h5 {
     text-align: center;
     background-color: #434357e5;
     color: white;
+}
+
+.main-work img {
+    height: 250px;
+    width: 1115px;
+    object-fit: cover;
 }
 
 .work img {
@@ -132,7 +148,7 @@ header {
     object-fit: cover; 
 }
 
-.work:hover {
+.main-work:hover, .work:hover {
     opacity: 1.0;
     box-shadow: var(--sha);
 }
