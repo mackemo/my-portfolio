@@ -20,6 +20,7 @@ My Portfolio. Welcome!
 <img src="./assets/images/ss2.png"/>
 <img src="./assets/images/ss3.png"/>
 <img src="./assets/images/ss4.png"/>
+<img src="./assets/images/ss5.png"/>
 
 ## Process
 
